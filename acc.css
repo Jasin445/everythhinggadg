@@ -1,0 +1,141 @@
+.zoz{
+    justify-content:space-between;
+    align-items: start;
+    width:80%;
+}
+
+
+
+.gag{
+    min-width:200px;
+}
+
+@media (max-width:900px){
+    
+
+
+    .lol{
+        display: flex;
+        flex-direction: row;
+        gap:0px !important;
+        align-items:center;
+        justify-content:start;
+        overflow-x: scroll;
+        width:100% !important;
+    }
+
+    
+    .div-2{
+        margin:auto;
+        margin-bottom: 60px;
+    }
+
+    .down_1{
+        min-width:100% !important;
+    }
+
+
+    .gag{
+        width:140px;
+    }
+
+    .gag > p{
+        font-size: 14px !important;
+        
+    }
+    
+    .vv{
+        flex-wrap: nowrap;
+        width:840px;
+    }
+
+    
+
+     .zoz{
+        display:grid;
+          grid-template-columns: 100%;
+          justify-content: center;
+          min-width: 100%;
+          row-gap: 40px;
+        }
+    
+    
+   
+
+    /* width */
+.scroll-d3-div::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  /* Track */
+  .scroll-d3-div::-webkit-scrollbar-track:horizontal {
+    background: #f1f1f1;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  }
+
+  /* Handle */
+  .scroll-d3-div::-webkit-scrollbar-thumb:horizontal {
+    background: #C7C7C7;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  .scroll-d3-div::-webkit-scrollbar-thumb:horizontal:hover {
+    background: #888;
+    display:none;
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button {
+    display: block;
+    background-color: #1C690F;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button:horizontal:start:decrement {
+    width: 22px;
+    background-position: center ;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(256, 256, 256)'><polygon points='0,50 50,100 50,0'/></svg>")
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button:horizontal:start:increment {
+    display: none;
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button:horizontal:end:decrement {
+    display: none;
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button:horizontal:end:increment {
+    width: 22px;
+    background-position:center right;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(256, 256, 256)'><polygon points='0,0 0,100 50,50'/></svg>");
+  }
+
+  .down_1{
+    width:80%;
+    margin: auto;
+    min-width: 530px;
+  }
+}
+
+@media (max-width:649px) {
+    .div-2{
+        min-width:100%;
+        padding:6%;
+    }
+    
+    .zoz{
+        grid-template-columns: 110%;
+        row-gap:10px;
+    }
+
+    .greenbar a{
+        font-size: 14px;
+    }
+
+    
+
+    
+}

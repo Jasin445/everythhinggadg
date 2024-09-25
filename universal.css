@@ -1,0 +1,237 @@
+.lol{
+    flex-direction: column;
+    gap:0;
+
+    align-items:start;
+    justify-content:start;
+    
+    width: 100%;
+}
+
+.vv{
+    flex-wrap: nowrap;
+    width:540px;
+}
+
+
+@media (max-width:1017px){
+
+    .lol{
+        flex-direction: row;
+        gap:32px;
+        overflow-x: scroll;
+        align-items:center;
+        justify-content:start;
+        
+        max-width:100%;
+    }
+
+    .vv{
+        flex-wrap: nowrap;
+        width:100%;
+    }
+
+    .vv  button{
+        
+        width:140px;
+    }
+    
+   
+
+    .gag p{
+        width:150px;
+        font-size: 1rem;
+       
+    }
+
+    .gag{
+        gap:4px;
+    }
+
+
+
+    .zoz{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+
+    
+
+     .div-2{
+        width:560px;
+        margin: auto;
+        margin-top:40px;
+    }
+
+   
+
+    /* width */
+.scroll-d3-div::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  /* Track */
+  .scroll-d3-div::-webkit-scrollbar-track:horizontal {
+    background: #f1f1f1;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  }
+
+  /* Handle */
+  .scroll-d3-div::-webkit-scrollbar-thumb:horizontal {
+    background: #C7C7C7;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  .scroll-d3-div::-webkit-scrollbar-thumb:horizontal:hover {
+    background: #888;
+    display:none;
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button {
+    display: block;
+    background-color: #1C690F;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button:horizontal:start:decrement {
+    width: 22px;
+    background-position: center ;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(256, 256, 256)'><polygon points='0,50 50,100 50,0'/></svg>")
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button:horizontal:start:increment {
+    display: none;
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button:horizontal:end:decrement {
+    display: none;
+  }
+
+  .scroll-d3-div::-webkit-scrollbar-button:horizontal:end:increment {
+    width: 22px;
+    background-position:center right;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(256, 256, 256)'><polygon points='0,0 0,100 50,50'/></svg>");
+  }
+
+  .down_1{
+    width:80%;
+    margin: auto;
+    min-width: 530px;
+  }
+}
+
+@media (max-width:769px) {
+    .div-2{
+        width:90%;
+        margin: auto;
+        margin-top:40px;
+    }
+
+    .vv{
+        flex-wrap: wrap;
+        width:100%;
+        gap:20px;
+        justify-content: space-between;
+        row-gap: 30px;
+    }
+
+    .vv > img:first-child{
+        width:40%;
+    }
+
+    .product-name{
+        width:150px;
+    }
+
+    .product-name > p, .product-name > span{
+        
+        font-size: 19px !important;
+    }
+}
+
+@media (max-width:523px) {
+    .div-2{
+        width:86%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left:16%;
+    }
+
+    .container-1{
+        padding: 0;
+        margin:0;
+        
+    }
+
+    .div-2 > p:first-child{
+        margin-left:20%;
+    }
+
+    .vv{
+        display:grid;
+        grid-template-columns: 22% 31% 26% 12%;
+        gap:0px;
+    }
+
+    .vv button{
+        width:100%;
+        padding:8px 16px;
+        font-size:2.8vw;
+    }
+
+    .vv > img:first-child{
+        width:100%;
+        margin-right: 20px;
+    }
+
+    .product-name{
+        width:100%;
+    }
+
+    .product-name > p, .product-name > span{
+        
+        font-size: 3.6vw !important;
+    }
+
+    .zoz{
+        display: grid;
+        grid-template-columns: 140%;
+        justify-content: center;
+        margin: 0;
+        padding:0;
+    }
+
+    .lol{
+        margin:auto;
+        width:80%;
+        margin-left: 17%;
+    }
+
+}
+
+@media (max-width:365px) {
+    .vv{
+        display:grid;
+        grid-template-columns: 32% 28% 25% ;
+        gap:0;
+    }
+
+    .vv button{
+        margin-left: -12px;
+    }
+
+    .product-name > p, .product-name > span{
+        
+        font-size: 3.4vw !important;
+    }
+
+    .vv > img:last-child{
+        margin-left:250%;
+        margin-top: 1%;
+    }
+    
+}

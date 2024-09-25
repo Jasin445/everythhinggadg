@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Checkout.css">
+    <link rel="stylesheet" href="checkout-1.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="home">
+            <img src="../Everything Gadget/assets/Group 10.png" alt="image of logo">
+            <ul>
+                <li> <a href="../Everything Gadget/index-2.html">Home</a> </li>
+                <li> <a class="active" href="../Everything Gadget/cart.html">Shop</a></li>
+                <li> <a href="../Everything Gadget/about-us.html">About us</a></li>
+                <li> <a href="../Everything Gadget/Contact-us.html">Contact us</a></li>
+                <li> <a href="../Everything Gadget/Blog.html">Blog</a></li>
+            </ul>
+            <div class="icons">
+                <a class=shift href="../Everything Gadget/profile-account.html"> <img
+                        src="../Everything Gadget/assets/profile-circle.png" alt="" /></a>
+                <img class=shift src="../Everything Gadget/assets/shopping-cart.png" alt="" />
+                <img src="../Everything Gadget/assets/search-normal.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- end of the navbar -->
+
+
+    <!-- the beginning of the green bar -->
+
+    <div class="greenbar container">
+        <div class="flex">
+            <div class="back-nav">
+                <img src="../Everything Gadget/assets/arrow-left.png" alt="">
+            </div>
+
+            <div class="navs">
+                <a class="homes" href="index-2.html">Home/</a>
+                <a class="homes" href="../Everything Gadget/cart.html">Cart/</a>
+                <a class="span" href="#">Checkout</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of greencontainer -->
+
+    <div class="container mt delivery">
+        <div class="flex">
+            <div class="form">
+                <p style="margin-bottom: 24.61px;">Delivery</p><br>
+                <form>
+                    <label for="Name">Full name</label><br>
+                    <input type="text" placeholder="Your name"><br><br>
+
+                    <label for="Location">Location</label><br>
+                    <select>
+                        <option value="0">Choose a location</option>
+                        <option value="1">Abia</option>
+                        <option value="2">Abuja</option>
+                        <option value="3">Adamawa</option>
+                        <option value="4">Akwaibom</option>
+                        <option value="5">Anambara</option>
+                        <option value="6">Bauchi</option>
+                        <option value="7">Bayelsa</option>
+                        <option value="8">Benue</option>
+                        <option value="9">Borno</option>
+                        <option value="10">Crossriver</option>
+                        <option value="11">Delta</option>
+                        <option value="12">Ebonyi</option>
+                        <option value="13">Edo</option>
+                        <option value="14">Ekiti</option>
+                        <option value="15">Enugu</option>
+                        <option value="16">Gombe</option>
+                        <option value="17">Imo</option>
+                        <option value="18">Jigawa</option>
+                        <option value="19">Kaduna</option>
+                        <option value="20">Kano</option>
+                        <option value="21">Katsina</option>
+                        <option value="22">Kebbi</option>
+                        <option value="23">Nassarawa</option>
+                        <option value="24">Niger</option>
+                        <option value="25">Ogun</option>
+                        <option value="26">Osun</option>
+                        <option value="27">Ondo</option>
+                        <option value="28">Oyo</option>
+                        <option value="29">Plateau</option>
+                        <option value="30">Rivers</option>
+                        <option value="31">Sokoto</option>
+                        <option value="32">Taraba</option>
+                        <option value="33">Yobe</option>
+                        <option value="34">Zamfara</option>
+
+                    </select>
+                    <br><br>
+                    <label for="name">Full name</label><br>
+                    <input type="text" placeholder="Your name"><br><br>
+
+                    <label for="address">Street address</label><br>
+                    <input type="text" placeholder="Your address"><br><br>
+
+                    <div class="flex check">
+                        <input type="checkbox">
+                        <p style="color:rgb(181, 179, 179)">Shipping address is my billing address</p><br>
+                    </div><br>
+
+                    <div class="flex check">
+                        <input type="checkbox">
+                        <p style="color:rgb(181, 179, 179)">Save this information for next time</p><br>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="payment">
+                <p style="margin-bottom: 54.83px;">Payment</p>
+                <div class=" ss flex">
+
+                    <div class="ff flex mb">
+                        <input type="radio" name="card payment" id="card payment">
+                        <label style="color:#181818;" for="card payment">Card Payment <span
+                                class="decorate">Recommended</span></label>
+                    </div>
+
+                    <img src="../Everything Gadget/assets/Mastercard - jpeg 0.png" width="52px" height="23px" alt="">
+                    <img style="margin-left:15px;" src="../Everything Gadget/assets/Visa Inc. - png 0 (1).png"
+                        width="61.76px" height="16.75px" alt="">
+
+                </div>
+                <p class="boter">-Kindly note that you will be redirected to our platform to complete your payment</p>
+                <p class="bot">-Ensure your payment information is up to date and that you have the neccesary funds</p>
+                <div class="ff er flex">
+                    <input type="radio" name="bank transfer" id="bank transfer">
+                    <label style="color:#181818;" for="bank transfer">Bank Transfer</label>
+                </div>
+
+                <div class="ff er flex">
+                    <input type="radio" name="delivery payment" id="delivery payment">
+                    <label style="color:#181818;" for="delivery payment">Payment on delivery</label>
+                </div>
+
+                <div class="ff er flex">
+                    <input type="radio" name="paystack" id="paystack">
+                    <label style="color:#181818;" for="paystack">Paystack</label>
+                </div>
+
+                <div class="container bbo">
+                    <div class="price">
+                        <div class="flex">
+                            <p>Subtotal</p>
+                            <span>N 13,620</span>
+                        </div>
+                        <div class="flex bor">
+                            <p>Shipping fee</p>
+                            <span>N 3,620</span>
+                        </div>
+                        <div class="flex tot">
+                            <p>Total</p>
+                            <span>N 13,620</span>
+                        </div>
+                    </div>
+                
+
+                <button class="butin"><a class="whit" href="../Everything Gadget/checkout-1.html">Next</a></button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

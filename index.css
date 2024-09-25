@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    box-shadow: none;
+}
+
+.containe{
+    margin-left: 10%;
+}
+
+.sign-in{
+    width:53%;
+    margin-top: 68px;
+    padding:0px 40px;
+    padding-left:0;
+    flex-basis: 20%;
+    height:680px;
+}
+
+input, select{
+    margin-top: 8px;
+    width:100%;
+    height:50px;
+    border: 0.5px solid #F1F1F1;
+    border-radius: 8px;
+    padding:4px 20px;
+    outline:0;
+    margin-bottom:24px;
+    font-family: Lato;
+
+}
+
+label{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color:#181818;
+
+}
+
+
+.sign-in .div-2 span{
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color:#061503;
+    
+}
+
+.sign-in .div-2 > p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color:#AEA9A9;
+    margin-bottom: 42px;
+    margin-top: 8px;
+}
+
+.frees{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    margin: auto;
+    margin: 24px;
+
+}
+
+.dfs{
+    font-family: Roboto !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 16px !important;
+    text-align: left !important;
+    color:#1C690F !important;
+
+}
+
+.porch{
+    width:100%;
+}
+
+.picture{
+    width:47%;
+    background-color: #1C690F;
+    height:1057px;
+    
+}
+
+.picture > img{
+    height: auto;
+}
+
+div.div-2{
+    position: relative;
+    top: -85px;
+    
+}
+
+.div-2 input{
+    width:100%;
+}
+
+.fie{
+    position: relative;
+    top:-62px;
+    width:500px;
+    left:-10px;
+}
+
+.fie.flex{
+   
+    justify-content: center;
+    gap:14px;
+}
+
+.picture >  p:first-child{
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    text-align: center;
+    color:#D2E1CF;
+    margin-top:68px;
+    margin-bottom: 40px;
+}
+
+.picture > p:nth-child(2){
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color:#D2E1CF;
+    padding:0 29px;
+    margin: auto;
+    margin-bottom:56px;
+
+}
+
+.dddp{
+    position: absolute;
+    top:440px;
+    left:445px;
+    cursor: pointer;
+}
+
+.ddd{
+    position: absolute;
+    top:340px;
+    left:445px;
+    cursor: pointer;
+}
+
+.porch a{
+    color:white;
+    text-decoration: none;
+}
+
+.dfs a{
+    color:#1C690F;
+    text-decoration: none;
+}
+
+
+
+
+.home{
+    padding:unset;
+    margin-left: 10%;
+    width:53%;
+
+    
+}
+
+form, .flex, .div-2{
+    position:relative;
+}
+
+.form{
+    width:100%;
+}
+
+
+
+.gre{
+    width:47%;
+    background-color: #1C690F;
+    height:100%;
+}
+
+@media (max-width:1142px){
+    .gre, .picture{
+        display: none;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:197px;
+    }
+    
+
+    .flex{
+        width:100%;
+        display:block
+    }
+
+    .div-2{
+        margin-top: 138px;
+        width:140%;
+    }
+
+     .form, input, .div-2{
+        min-width:500px;
+        max-width: 500px;
+    }
+
+    .containe{
+        width:500px;
+        margin:auto;
+    }
+}
+
+@media (max-width:632px){
+    .containe{
+        margin:10%;
+       
+    }
+
+    form{
+        max-width: 500px;
+        min-width: 100px;
+    }
+
+    .div-2{
+        width:60%;
+        max-width: 500px;
+    }
+
+    input{
+        width:40%;
+        min-width: 100px;
+    }
+
+    .sign-in{
+        max-width:510px;
+        padding:0;
+    }
+
+    .flex{
+        width:100%;
+    }
+
+
+}
+
+@media (max-width:590px){
+    form{
+        max-width: 480px;
+        min-width: 100px;
+    }
+
+    body, html{
+        
+        overflow-x:hidden ;
+    }
+
+   
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:430px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:430px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:185px;
+    }
+    
+   
+
+    
+}
+
+@media (max-width:570px){
+    form{
+        max-width: 470px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:420px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:420px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:180px;
+    }
+    
+    
+}
+
+@media (max-width:550px){
+    form{
+        max-width: 450px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:410px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:410px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:170px;
+    }
+    
+}
+
+@media (max-width:530px){
+    form{
+        max-width: 440px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:390px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:390px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:165px;
+    }
+    
+}
+/* mobile starts */
+@media (max-width:510px){
+    form{
+        max-width: 390px;
+        min-width: 100px;
+    }
+
+    .containe{
+        width:fit-content;
+        margin: auto;
+        margin-left:15%;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:350px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:350px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:145px;
+    }
+    
+
+   
+
+    
+}
+
+@media (max-width:490px){
+    form{
+        max-width: 360px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:320px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:320px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:130px;
+    }
+    
+}
+
+@media (max-width:470px){
+    form{
+        max-width: 350px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:300px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:300px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:125px;
+    }
+    
+}
+
+@media (max-width:450px){
+    form{
+        max-width:320px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:275px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:275px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:110px;
+    }
+    
+}
+
+@media (max-width:430px){
+    form{
+        max-width: 300px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:250px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:250px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:100px;
+    }
+    
+}
+@media (max-width:410px){
+    form{
+        max-width: 280px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:230px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:230px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:90px;
+    }
+    
+}
+@media (max-width:390px){
+    form{
+        max-width:260px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:210px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:210px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:80px;
+    }
+    
+}
+@media (max-width:349px){
+    form{
+        max-width: 250px;
+        min-width: 100px;
+    }
+
+    .dddp{
+        position: absolute;
+        top:440px;
+        left:210px;
+        cursor: pointer;
+    }
+    
+    .ddd{
+        position: absolute;
+        top:340px;
+        left:210px;
+        cursor: pointer;
+    }
+
+    .fie{
+        position: relative;
+        top:-62px;
+        width:500px;
+        left:75px;
+    }
+    
+}
